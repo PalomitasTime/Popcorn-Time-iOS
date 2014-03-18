@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D08509E18D7A4F9009FFD3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D08509D18D7A4F9009FFD3D /* Foundation.framework */; };
+		3D0850A018D7A4F9009FFD3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D08509F18D7A4F9009FFD3D /* CoreGraphics.framework */; };
+		3D0850A218D7A4F9009FFD3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0850A118D7A4F9009FFD3D /* UIKit.framework */; };
+		3D0850A818D7A4F9009FFD3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D0850A618D7A4F9009FFD3D /* InfoPlist.strings */; };
+		3D0850AA18D7A4F9009FFD3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0850A918D7A4F9009FFD3D /* main.m */; };
+		3D0850AE18D7A4F9009FFD3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0850AD18D7A4F9009FFD3D /* AppDelegate.m */; };
+		3D0850B118D7A4F9009FFD3D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0850AF18D7A4F9009FFD3D /* Main_iPhone.storyboard */; };
+		3D0850B418D7A4F9009FFD3D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0850B218D7A4F9009FFD3D /* Main_iPad.storyboard */; };
+		3D0850B718D7A4F9009FFD3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0850B618D7A4F9009FFD3D /* ViewController.m */; };
+		3D0850B918D7A4F9009FFD3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0850B818D7A4F9009FFD3D /* Images.xcassets */; };
+		3D0850C018D7A4F9009FFD3D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0850BF18D7A4F9009FFD3D /* XCTest.framework */; };
+		3D0850C118D7A4F9009FFD3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D08509D18D7A4F9009FFD3D /* Foundation.framework */; };
+		3D0850C218D7A4F9009FFD3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0850A118D7A4F9009FFD3D /* UIKit.framework */; };
+		3D0850CA18D7A4F9009FFD3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D0850C818D7A4F9009FFD3D /* InfoPlist.strings */; };
+		3D0850CC18D7A4F9009FFD3D /* PopcornTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0850CB18D7A4F9009FFD3D /* PopcornTimeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D0850C318D7A4F9009FFD3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D08509218D7A4F9009FFD3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D08509918D7A4F9009FFD3D;
+			remoteInfo = PopcornTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D08509A18D7A4F9009FFD3D /* PopcornTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopcornTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D08509D18D7A4F9009FFD3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D08509F18D7A4F9009FFD3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D0850A118D7A4F9009FFD3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D0850A518D7A4F9009FFD3D /* PopcornTime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopcornTime-Info.plist"; sourceTree = "<group>"; };
+		3D0850A718D7A4F9009FFD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D0850A918D7A4F9009FFD3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D0850AB18D7A4F9009FFD3D /* PopcornTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PopcornTime-Prefix.pch"; sourceTree = "<group>"; };
+		3D0850AC18D7A4F9009FFD3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D0850AD18D7A4F9009FFD3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D0850B018D7A4F9009FFD3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		3D0850B318D7A4F9009FFD3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		3D0850B518D7A4F9009FFD3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D0850B618D7A4F9009FFD3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D0850B818D7A4F9009FFD3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D0850BE18D7A4F9009FFD3D /* PopcornTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopcornTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0850BF18D7A4F9009FFD3D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3D0850C718D7A4F9009FFD3D /* PopcornTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopcornTimeTests-Info.plist"; sourceTree = "<group>"; };
+		3D0850C918D7A4F9009FFD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D0850CB18D7A4F9009FFD3D /* PopcornTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopcornTimeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D08509718D7A4F9009FFD3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0850A018D7A4F9009FFD3D /* CoreGraphics.framework in Frameworks */,
+				3D0850A218D7A4F9009FFD3D /* UIKit.framework in Frameworks */,
+				3D08509E18D7A4F9009FFD3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0850BB18D7A4F9009FFD3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0850C018D7A4F9009FFD3D /* XCTest.framework in Frameworks */,
+				3D0850C218D7A4F9009FFD3D /* UIKit.framework in Frameworks */,
+				3D0850C118D7A4F9009FFD3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D08509118D7A4F9009FFD3D = {
+			isa = PBXGroup;
+			children = (
+				3D0850A318D7A4F9009FFD3D /* PopcornTime */,
+				3D0850C518D7A4F9009FFD3D /* PopcornTimeTests */,
+				3D08509C18D7A4F9009FFD3D /* Frameworks */,
+				3D08509B18D7A4F9009FFD3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D08509B18D7A4F9009FFD3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D08509A18D7A4F9009FFD3D /* PopcornTime.app */,
+				3D0850BE18D7A4F9009FFD3D /* PopcornTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D08509C18D7A4F9009FFD3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D08509D18D7A4F9009FFD3D /* Foundation.framework */,
+				3D08509F18D7A4F9009FFD3D /* CoreGraphics.framework */,
+				3D0850A118D7A4F9009FFD3D /* UIKit.framework */,
+				3D0850BF18D7A4F9009FFD3D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D0850A318D7A4F9009FFD3D /* PopcornTime */ = {
+			isa = PBXGroup;
+			children = (
+				3D0850AC18D7A4F9009FFD3D /* AppDelegate.h */,
+				3D0850AD18D7A4F9009FFD3D /* AppDelegate.m */,
+				3D0850AF18D7A4F9009FFD3D /* Main_iPhone.storyboard */,
+				3D0850B218D7A4F9009FFD3D /* Main_iPad.storyboard */,
+				3D0850B518D7A4F9009FFD3D /* ViewController.h */,
+				3D0850B618D7A4F9009FFD3D /* ViewController.m */,
+				3D0850B818D7A4F9009FFD3D /* Images.xcassets */,
+				3D0850A418D7A4F9009FFD3D /* Supporting Files */,
+			);
+			path = PopcornTime;
+			sourceTree = "<group>";
+		};
+		3D0850A418D7A4F9009FFD3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D0850A518D7A4F9009FFD3D /* PopcornTime-Info.plist */,
+				3D0850A618D7A4F9009FFD3D /* InfoPlist.strings */,
+				3D0850A918D7A4F9009FFD3D /* main.m */,
+				3D0850AB18D7A4F9009FFD3D /* PopcornTime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D0850C518D7A4F9009FFD3D /* PopcornTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D0850CB18D7A4F9009FFD3D /* PopcornTimeTests.m */,
+				3D0850C618D7A4F9009FFD3D /* Supporting Files */,
+			);
+			path = PopcornTimeTests;
+			sourceTree = "<group>";
+		};
+		3D0850C618D7A4F9009FFD3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D0850C718D7A4F9009FFD3D /* PopcornTimeTests-Info.plist */,
+				3D0850C818D7A4F9009FFD3D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D08509918D7A4F9009FFD3D /* PopcornTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0850CF18D7A4F9009FFD3D /* Build configuration list for PBXNativeTarget "PopcornTime" */;
+			buildPhases = (
+				3D08509618D7A4F9009FFD3D /* Sources */,
+				3D08509718D7A4F9009FFD3D /* Frameworks */,
+				3D08509818D7A4F9009FFD3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopcornTime;
+			productName = PopcornTime;
+			productReference = 3D08509A18D7A4F9009FFD3D /* PopcornTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D0850BD18D7A4F9009FFD3D /* PopcornTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0850D218D7A4F9009FFD3D /* Build configuration list for PBXNativeTarget "PopcornTimeTests" */;
+			buildPhases = (
+				3D0850BA18D7A4F9009FFD3D /* Sources */,
+				3D0850BB18D7A4F9009FFD3D /* Frameworks */,
+				3D0850BC18D7A4F9009FFD3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D0850C418D7A4F9009FFD3D /* PBXTargetDependency */,
+			);
+			name = PopcornTimeTests;
+			productName = PopcornTimeTests;
+			productReference = 3D0850BE18D7A4F9009FFD3D /* PopcornTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D08509218D7A4F9009FFD3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = PPinera;
+				TargetAttributes = {
+					3D0850BD18D7A4F9009FFD3D = {
+						TestTargetID = 3D08509918D7A4F9009FFD3D;
+					};
+				};
+			};
+			buildConfigurationList = 3D08509518D7A4F9009FFD3D /* Build configuration list for PBXProject "PopcornTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D08509118D7A4F9009FFD3D;
+			productRefGroup = 3D08509B18D7A4F9009FFD3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D08509918D7A4F9009FFD3D /* PopcornTime */,
+				3D0850BD18D7A4F9009FFD3D /* PopcornTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D08509818D7A4F9009FFD3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0850B418D7A4F9009FFD3D /* Main_iPad.storyboard in Resources */,
+				3D0850B918D7A4F9009FFD3D /* Images.xcassets in Resources */,
+				3D0850B118D7A4F9009FFD3D /* Main_iPhone.storyboard in Resources */,
+				3D0850A818D7A4F9009FFD3D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0850BC18D7A4F9009FFD3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0850CA18D7A4F9009FFD3D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D08509618D7A4F9009FFD3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0850B718D7A4F9009FFD3D /* ViewController.m in Sources */,
+				3D0850AE18D7A4F9009FFD3D /* AppDelegate.m in Sources */,
+				3D0850AA18D7A4F9009FFD3D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0850BA18D7A4F9009FFD3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0850CC18D7A4F9009FFD3D /* PopcornTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D0850C418D7A4F9009FFD3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D08509918D7A4F9009FFD3D /* PopcornTime */;
+			targetProxy = 3D0850C318D7A4F9009FFD3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D0850A618D7A4F9009FFD3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D0850A718D7A4F9009FFD3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D0850AF18D7A4F9009FFD3D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D0850B018D7A4F9009FFD3D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3D0850B218D7A4F9009FFD3D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D0850B318D7A4F9009FFD3D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3D0850C818D7A4F9009FFD3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D0850C918D7A4F9009FFD3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D0850CD18D7A4F9009FFD3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D0850CE18D7A4F9009FFD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D0850D018D7A4F9009FFD3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopcornTime/PopcornTime-Prefix.pch";
+				INFOPLIST_FILE = "PopcornTime/PopcornTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D0850D118D7A4F9009FFD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopcornTime/PopcornTime-Prefix.pch";
+				INFOPLIST_FILE = "PopcornTime/PopcornTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3D0850D318D7A4F9009FFD3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PopcornTime.app/PopcornTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopcornTime/PopcornTime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PopcornTimeTests/PopcornTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3D0850D418D7A4F9009FFD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PopcornTime.app/PopcornTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopcornTime/PopcornTime-Prefix.pch";
+				INFOPLIST_FILE = "PopcornTimeTests/PopcornTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D08509518D7A4F9009FFD3D /* Build configuration list for PBXProject "PopcornTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0850CD18D7A4F9009FFD3D /* Debug */,
+				3D0850CE18D7A4F9009FFD3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0850CF18D7A4F9009FFD3D /* Build configuration list for PBXNativeTarget "PopcornTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0850D018D7A4F9009FFD3D /* Debug */,
+				3D0850D118D7A4F9009FFD3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D0850D218D7A4F9009FFD3D /* Build configuration list for PBXNativeTarget "PopcornTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0850D318D7A4F9009FFD3D /* Debug */,
+				3D0850D418D7A4F9009FFD3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D08509218D7A4F9009FFD3D /* Project object */;
+}
